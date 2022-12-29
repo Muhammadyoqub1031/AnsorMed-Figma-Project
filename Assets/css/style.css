@@ -59,8 +59,6 @@ a {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  justify-content: center;
-  align-items: center;
 }
 .header-item {
   padding-right: 32px;
@@ -148,3 +146,53 @@ a {
 .service-btn {
   text-align: center;
 } /* Services end */
+
+/* cta section */
+.cta {
+  background-color: #0EB4C1;
+}
+.cta-container {
+  padding: 64px 0;
+}
+.cta-label {
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.cta-buttons {
+  width: 453px;
+  margin: auto;
+}
+.cta-buttons button {
+  cursor: pointer;
+  background-color: #0EB4C1;
+  padding: 12px 24px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.cta-buttons button:first-child {
+  margin-right: 40px;
+} /* CTA end */
+
+/* Footer section */
+.footer {
+  background-color: #222;
+}
+.footer-container {
+  padding: 24px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo-text {
+  color: #fff;
+}
+.footer-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-navbar a {
+  color: #fff;
+}
